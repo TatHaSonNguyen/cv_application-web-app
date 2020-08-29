@@ -21,6 +21,7 @@
     "@angular/router": "~7.2.0",
     "@okta/okta-angular": "^2.1.0",
     "@types/jquery": "^3.5.1",
+    "angular-cli-ghpages": "^0.6.2",
     "core-js": "^2.5.4",
     "easy-pie-chart": "^2.1.7",
     "jquery": "^3.5.1",
