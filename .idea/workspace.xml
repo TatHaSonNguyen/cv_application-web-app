@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="014ea578-7d76-4952-a69f-db216b8ffc0c" name="Default" comment="cv_application structure" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cEJxm8XeGBFiLh6OX8GjiYCb8V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.prettier" value="" />
+    <property name="node.js.selected.package.tslint" value="F:\FSOFT - FPT COMPANY\Business Man\online_store\web-app\node_modules\tslint" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\FSOFT - FPT COMPANY\Business Man\cv_application\web-app\src\app\services\authentication" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\FSOFT - FPT COMPANY\Business Man\cv_application\web-app\docs" />
+      <recent name="F:\FSOFT - FPT COMPANY\Business Man\cv_application\web-app\src\app\models" />
+      <recent name="F:\FSOFT - FPT COMPANY\Business Man\cv_application\web-app\src\app\services" />
+      <recent name="F:\FSOFT - FPT COMPANY\Business Man\cv_application\web-app\src\app" />
+      <recent name="F:\FSOFT - FPT COMPANY\Business Man\cv_application\web-app\src\assets" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="014ea578-7d76-4952-a69f-db216b8ffc0c" name="Default" comment="" />
+      <created>1589850279673</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589850279673</updated>
+      <workItem from="1589850283137" duration="21377000" />
+      <workItem from="1590016385815" duration="3193000" />
+      <workItem from="1590088082784" duration="239000" />
+      <workItem from="1590088404756" duration="148000" />
+      <workItem from="1593336401718" duration="595000" />
+      <workItem from="1593442881074" duration="2000" />
+      <workItem from="1595627544994" duration="627000" />
+      <workItem from="1595725659370" duration="2013000" />
+      <workItem from="1596044210792" duration="4000" />
+      <workItem from="1596227334381" duration="63000" />
+      <workItem from="1596973806727" duration="3733000" />
+      <workItem from="1597005087085" duration="2743000" />
+      <workItem from="1597234438232" duration="8139000" />
+      <workItem from="1597368621345" duration="23217000" />
+      <workItem from="1597834492621" duration="645000" />
+      <workItem from="1597978455328" duration="29198000" />
+      <workItem from="1598187269613" duration="11858000" />
+      <workItem from="1598260651875" duration="59804000" />
+      <workItem from="1598505063911" duration="48505000" />
+      <workItem from="1598680737009" duration="10498000" />
+      <workItem from="1598710665195" duration="329000" />
+      <workItem from="1598711011025" duration="1196000" />
+      <workItem from="1598716986679" duration="2402000" />
+      <workItem from="1598730495789" duration="65000" />
+      <workItem from="1598730578387" duration="187000" />
+      <workItem from="1598730795300" duration="16000" />
+      <workItem from="1598730863639" duration="1269000" />
+    </task>
+    <task id="LOCAL-00001" summary="cv_application structure">
+      <created>1598680950762</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598680950762</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cv_application structure: update Heroku SERVER API URL">
+      <created>1598681674073</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598681674073</updated>
+    </task>
+    <task id="LOCAL-00003" summary="cv_application structure: update access modifier to some variables in app.component.ts">
+      <created>1598684738051</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598684738051</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cv_application structure: create docs after build project on github page">
+      <created>1598709925975</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598709925975</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cv_application structure: update Heroku SERVER API URL" />
+    <MESSAGE value="cv_application structure: update access modifier to some variables in app.component.ts" />
+    <MESSAGE value="cv_application structure: create docs after build project on github page" />
+    <MESSAGE value="cv_application structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="cv_application structure" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="692" y="298" key="#TSLint" timestamp="1597279055612">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="692" y="298" key="#TSLint/0.0.1920.1040@0.0.1920.1040" timestamp="1597279055612" />
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1597646376318">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597646376318" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597278387207">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597278387207" />
+    <state x="557" y="88" key="CommitChangelistDialog2" timestamp="1598719680780">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="557" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598719680780" />
+    <state x="184" y="85" key="DiffContextDialog" timestamp="1598681689178">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="85" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598681689178" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1598680442904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1598680442904" />
+    <state x="540" y="254" key="IDE.errors.dialog" timestamp="1590088218583">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590088218583" />
+    <state x="699" y="222" key="RollbackChangesDialog" timestamp="1598706917456">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="699" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598706917456" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1598719751675">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598719751675" />
+    <state x="666" y="253" width="587" height="534" key="find.popup" timestamp="1598706199095">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="253" width="587" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598706199095" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1598318881614">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598318881614" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598704874771">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1598704874771" />
+  </component>
+</project>

@@ -1,0 +1,53 @@
+import { HttpParams } from '@angular/common/http';
+
+export interface Pagination {
+  page: number;
+  size: number;
+  sort: string[];
+}
+
+export interface Search {
+  query: string;
+}
+
+export interface SearchWithPagination extends Search, Pagination {}
+
+export const createRequestOption = (req?: any): HttpParams => {
+  let options: HttpParams = new HttpParams();
+  const a = '';
+  if (req) {
+    Object.keys(req).forEach(key => {
+      if (key !== 'sort') {
+        if (req[key]) {
+           if (req[key].logicalOperator) {
+            options = options.set(key + '.' + req[key].logicalOperator, req[key].value ? req[key].value : '');
+          } else {
+             options = options.set(key, req[key].value ? req[key].value : '');
+           }
+        }
+      }
+    });
+
+    if (req.sort) {
+      req.sort.forEach((val: string) => {
+        options = options.append('sort', val);
+      });
+    }
+  }
+
+  return options;
+};
+
+export enum LogicalOperator {
+  equals = 'equals',
+  notEquals = 'notEquals',
+  greaterThan = 'greaterThan',
+  greaterThanOrEqual = 'greaterThanOrEqual',
+  lessThan = 'lessThan',
+  lessThanOrEqual = 'lessThanOrEqual',
+  in = 'in',
+  notIn = 'notIn',
+  specified = 'specified',
+  contains = 'contains',
+  doesNotContain = 'doesNotContain'
+}

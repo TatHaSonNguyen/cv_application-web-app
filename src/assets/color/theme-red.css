@@ -1,0 +1,51 @@
+/*=========================================================
+Author       : TEMPLATEMANJA.
+Template Name: Son Nguyen - CV / Resume
+Version      : 1.1
+==============================================================*/
+a:hover,
+.hover_menu_style1 .navbar .navbar-nav > li > a.active, .hover_menu_style1 .navbar .navbar-nav > li:hover > a,
+.icon_box_style_1 i,
+.link_container a,
+.pr_title i,
+.testi_meta span, .client_info span,
+.blog_meta li a i,
+.social_white .social_icons li a:hover, .social_white.social_icons li a:hover,
+.icon_box_style_2 i,
+.owl-theme .owl-nav [class*="owl-"]:hover {
+	color: #FF324D;
+}
+
+.text_default,
+.btn-white {
+	color: #FF324D !important;
+}
+
+.btn-default,
+.skill_content .progress-bar,
+.filter_tab1 li a.current, .filter_tab1 li a:hover,
+.tab-style1 .nav-item a.active,
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span,
+.post_category,
+.contact_style1 .contact_icon i,
+.scrollup:hover,
+.border_social .social_icons li a:hover, .border_social.social_icons li a:hover,
+.btn-default::before,
+.icon_box_style_2::before,
+.filter_tab2 li a.current, .filter_tab2 li a:hover,
+.timeline_icon,
+.timeline .timeline_icon::after {
+	background-color: #FF324D;
+}
+
+.btn-default,
+.filter_tab1 li a.current, .filter_tab1 li a:hover,
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span,
+.border_social .social_icons li a:hover, .border_social.social_icons li a:hover,
+.filter_tab2 li a.current, .filter_tab2 li a:hover {
+	border-color: #FF324D;
+}
+
+.spinner, .spinner-small {
+	border-top-color: #FF324D;
+}
