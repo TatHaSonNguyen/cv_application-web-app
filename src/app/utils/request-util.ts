@@ -51,3 +51,23 @@ export enum LogicalOperator {
   contains = 'contains',
   doesNotContain = 'doesNotContain'
 }
+
+export function mixStringWithKey(txt: string, key: string) {
+  try {
+    if (txt == null || key == null) { return null; }
+
+    const keys = key.split('');
+    const mesg = txt.split('');
+
+    const ml = mesg.length;
+    const kl = keys.length;
+    const newmsg = new Array(ml);
+    for (let i = 0; i < ml; i++) {
+      newmsg[i] = String.fromCharCode(mesg[i].charCodeAt(0) ^ keys[i % kl].charCodeAt(0));
+    }// for i
+
+    return newmsg.join('');
+  } catch (exception) {
+    return null;
+  }
+}
