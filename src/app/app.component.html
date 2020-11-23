@@ -155,7 +155,7 @@
                 </li>
                 <li>
                   <span class="title">Website:</span>
-                  <span class="content"> {{employee?.personalWebsiteLink}} </span>
+                  <span class="content"> <a href="{{employee?.personalWebsiteLink}}" target="_blank">{{employee?.personalWebsiteLink}}</a> </span>
                 </li>
                 <li>
                   <span class="title">Freelance:</span>
@@ -172,28 +172,13 @@
 </div>
 <!-- END SECTION ABOUT US -->
 
-<!-- START REASONS TO COLLABORATE -->
-<div class="section small_pt pb_70">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-xl-6 col-lg-7 col-md-9 text-center">
-        <div class="heading_s1 text-center">
-          <h2>My desire to collaborate</h2>
-        </div>
-        <p class="leads">{{employee?.reasonsToCollaborateDescription}}</p>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- END REASONS TO COLLABORATE -->
-
 <!-- START SECTION SKILL -->
 <div class="section small_pt pb_70">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-6 col-lg-7 col-md-9 text-center">
         <div class="heading_s1 text-center">
-          <h2>My Skill</h2>
+          <h2>My Skills</h2>
         </div>
         <p class="leads">{{employee?.availableSkillsDescription}}</p>
       </div>
@@ -225,7 +210,7 @@
 <!-- END SECTION SKILL -->
 
 <!-- START SECTION SERVICES -->
-<div id="services" class="section small_pt pb_70">
+<div id="services" class="section bg_redon pb_70">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-xl-6 col-lg-7 col-md-9 text-center">
@@ -251,6 +236,21 @@
   </div>
 </div>
 <!-- END SECTION SERVICES -->
+
+<!-- START REASONS TO COLLABORATE -->
+<div class="section small_pt pb_70">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-6 col-lg-7 col-md-9 text-center">
+        <div class="heading_s1 text-center">
+          <h2>Desire to collaborate</h2>
+        </div>
+        <p class="leads">{{employee?.reasonsToCollaborateDescription}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END REASONS TO COLLABORATE -->
 
 <!-- START SECTION COUNTER -->
 <div class="section counter_wrap bg_black background_bg" data-img-src="assets/images/bg_pattern.png">
@@ -414,7 +414,7 @@
     <div class="row justify-content-center">
       <div class="col-xl-6 col-lg-7 col-md-9 text-center">
         <div class="heading_s1">
-          <h2>My Certification</h2>
+          <h2>My Certifications</h2>
         </div>
         <p class="leads">{{employee?.availableCertificateDescription}}</p>
       </div>

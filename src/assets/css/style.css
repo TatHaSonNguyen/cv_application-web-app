@@ -2211,10 +2211,11 @@ header.sidebar_menu .bottom_content {
 .profile_info span.content {
   width: 57%;
   padding-left: 5%;
-  color: #8e05ffad;
+  color: #003fff;
+  font-weight: 500;
 }
 .profile_info span.content a{
-  color: #8e05ffad;
+  color: #003fff;
 }
 
 .profile_info span.content a:hover{
