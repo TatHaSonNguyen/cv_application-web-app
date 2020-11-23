@@ -15,6 +15,7 @@ export interface IEmployee {
   languageSkill?: string;
   languageSkillLevel?: string;
   profileDescription?: any;
+  reasonsToCollaborateDescription?: any;
   availableSkillsDescription?: any;
   availableServicesDescription?: any;
   availableCertificateDescription?: any;
@@ -54,6 +55,7 @@ export class Employee implements IEmployee {
     public languageSkill?: string,
     public languageSkillLevel?: string,
     public profileDescription?: any,
+    public reasonsToCollaborateDescription?: any,
     public availableSkillsDescription?: any,
     public availableServicesDescription?: any,
     public availableCertificateDescription?: any,
