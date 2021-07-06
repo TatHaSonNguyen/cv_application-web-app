@@ -1,10 +1,34 @@
 .displayNone{
   display: none;
 }
+.profileInfoContent.collapsed {
+  max-height: 126px;
+  overflow: hidden;
+}
+
+.profileInfoCollapse  {
+  color: #FF324D !important;
+  font-weight: bold;
+  i{
+    font-weight: bolder;
+    font-size: 18px;
+  }
+}
+
+.profileInfoCollapse:hover  {
+  cursor: pointer;
+}
+
+.readingCollapse {
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+}
+
 .collapsed {
   max-height: 356px;
   overflow: hidden;
 }
+
 .personalResumeCollapse  {
   color: #0c40dd !important;
 }

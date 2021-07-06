@@ -522,6 +522,19 @@ export class AppComponent implements OnInit, AfterViewChecked {
     $('.personalResumeReadMore_' + id).removeClass('displayNone');
     $('.personalResumeReadLess_' + id).addClass('displayNone');
   }
+
+  profileInfoReadMore() {
+    $('.profileInfoContent').removeClass('collapsed');
+    $('.profileInfoReadMore').addClass('displayNone');
+    $('.profileInfoReadLess').removeClass('displayNone');
+  }
+
+  profileInfoReadLess() {
+    $('.profileInfoContent').addClass('collapsed');
+    $('.profileInfoReadMore').removeClass('displayNone');
+    $('.profileInfoReadLess').addClass('displayNone');
+  }
+
   private createContactForm(employeeId: number): IContact {
     return {
       ...new Contact(),

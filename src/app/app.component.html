@@ -127,8 +127,19 @@
               <div class="heading_s1">
                 <h2>About Me</h2>
               </div>
-              <p>{{employee?.profileDescription}} </p>
-              <ul class="profile_info list_none mb-4 pt-2 border-bottom">
+              <div class="profileInfoContent collapsed">
+                {{employee?.profileDescription}}
+              </div>
+              <div *ngIf="employee?.profileDescription" class="profileInfoReadMore font-weight-bold text-center w-100">......</div>
+              <div class="readingCollapse">
+              <a *ngIf="employee?.profileDescription" class="profileInfoCollapse profileInfoReadMore" (click)="profileInfoReadMore()"><i class="ti-arrow-circle-down"></i></a>
+              <a *ngIf="employee?.profileDescription" class="profileInfoCollapse profileInfoReadLess displayNone"  (click)="profileInfoReadLess()"><i class="ti-arrow-circle-up"></i></a>
+              </div>
+              <ul class="profile_info list_none mb-4 pt-4 border-top border-bottom">
+                <li>
+                  <span class="title">Full name:</span>
+                  <span class="content">{{employee?.fullName}}</span>
+                </li>
                 <li>
                   <span class="title">Date of birth:</span>
                   <span class="content">{{employee?.dateOfBirth | date}}</span>
@@ -155,7 +166,8 @@
                 </li>
                 <li>
                   <span class="title">Website:</span>
-                  <span class="content"> <a href="{{employee?.personalWebsiteLink}}" target="_blank">{{employee?.personalWebsiteLink}}</a> </span>
+                  <span class="content"> <a href="{{employee?.personalWebsiteLink}}"
+                                            target="_blank">{{employee?.personalWebsiteLink}}</a> </span>
                 </li>
                 <li>
                   <span class="title">Freelance:</span>

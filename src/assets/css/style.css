@@ -2182,9 +2182,9 @@ header.sidebar_menu .bottom_content {
 	display: table;
 }
 .profile_info li {
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 	float: left;
-	width: 50%;
+	width: 100%;
 }
 .profile_info_style2 li {
     padding-top: 15px;
@@ -2195,7 +2195,7 @@ header.sidebar_menu .bottom_content {
 .profile_info span.title,
 .profile_info_style2 span.title {
     float: left;
-    max-width: 110px;
+    max-width: 25%;
     width: 100%;
     font-weight: 500;
     color: #333;
@@ -2209,7 +2209,7 @@ header.sidebar_menu .bottom_content {
 	margin: 0;
 }
 .profile_info span.content {
-  width: 57%;
+  width: 75%;
   padding-left: 5%;
   color: #003fff;
   font-weight: 500;
