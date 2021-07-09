@@ -1,13 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {AppComponent} from './app.component';
 import {APP_BASE_HREF} from '@angular/common';
+import {HomeComponent} from './home/home.component';
+import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
+import {AppComponent} from './app.component';
 
 
 const routes: Routes = [
-  { path: '', component: AppComponent },
-  // otherwise redirect to home
-  { path: '**', redirectTo: '' }
+  { path: '', component: HomeComponent},
+  { path: 'employee', component: AppComponent},
+  { path: 'page-not-found', component: PageNotFoundComponent },
+  { path: '**', redirectTo: '/page-not-found'}
 ];
 
 @NgModule({

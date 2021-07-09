@@ -10,10 +10,14 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {EasyPieChartModule} from 'ng2modules-easypiechart';
 import {Ng2OdometerModule} from 'ng2-odometer';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { HomeComponent } from './home/home.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
