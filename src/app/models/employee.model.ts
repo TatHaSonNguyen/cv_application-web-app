@@ -37,6 +37,10 @@ export interface IEmployee {
   backgroundPhotoLinkId?: number;
   profilePhotoLinkFileDownloadUri?: string;
   profilePhotoLinkId?: number;
+  exportingWebsiteURLWebsiteTemplateURL?: string;
+  exportingWebsiteURLId?: number;
+  userAccountLogin?: string;
+  userAccountId?: number;
 }
 
 export class Employee implements IEmployee {

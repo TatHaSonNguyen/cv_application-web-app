@@ -929,7 +929,7 @@
       </div>
       <div class="col-lg-7">
         <div class="field_form rounded_input contact_form">
-          <form [formGroup]="contactForm" (ngSubmit)="sendContact(employee?.id)">
+          <form [formGroup]="contactForm" (ngSubmit)="sendContact(employee?.id, employee?.userAccountId, employee?.userAccountLogin)">
             <div class="row">
               <!--              <div class="form-group col-md-6">-->
               <!--                <input required="" placeholder="Enter Name *" id="first-name" class="form-control" name="name" type="text">-->

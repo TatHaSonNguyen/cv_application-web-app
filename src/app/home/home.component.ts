@@ -487,7 +487,7 @@ export class HomeComponent implements OnInit, AfterViewChecked {
   get f() {
     return this.contactForm.controls;
   }
-  sendContact(employeeId: number) {
+  sendContact(employeeId: number, userAccountId: number, userAccountLogin: string) {
     this.submitted = true;
 
     // stop here if form is invalid
@@ -497,7 +497,7 @@ export class HomeComponent implements OnInit, AfterViewChecked {
 
     $('#preloader').removeAttr('style');
 
-    this.contactService.create(this.createContactForm(employeeId)).subscribe(
+    this.contactService.create(this.createContactForm(employeeId, userAccountId, userAccountLogin)).subscribe(
       () => {
         this.contactResponseError = false;
         this.contactResponseMessage = 'This contact is connected to me. Thanks for your contact and thank you so much!';
@@ -542,7 +542,7 @@ export class HomeComponent implements OnInit, AfterViewChecked {
     $('.profileInfoReadLess').addClass('displayNone');
   }
 
-  private createContactForm(employeeId: number): IContact {
+  private createContactForm(employeeId: number, userAccountIdValue: number, userAccountLoginValue: string): IContact {
     return {
       ...new Contact(),
       id: this.contactForm.get(['id']).value ? this.contactForm.get(['id']).value : undefined,
@@ -553,6 +553,8 @@ export class HomeComponent implements OnInit, AfterViewChecked {
       message: this.contactForm.get(['message']).value ? this.contactForm.get(['message']).value : undefined,
       created: moment(moment().startOf('day'), environment.DATE_TIME_FORMAT),
       employeeIdId: employeeId,
+      userAccountLogin: userAccountLoginValue,
+      userAccountId: userAccountIdValue
     };
   }
 

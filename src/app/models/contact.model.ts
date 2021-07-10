@@ -9,6 +9,8 @@ export interface IContact {
   message?: any;
   created?: Moment;
   employeeIdId?: number;
+  userAccountLogin?: string;
+  userAccountId?: number;
 }
 
 export class Contact implements IContact {
@@ -20,6 +22,8 @@ export class Contact implements IContact {
     public subject?: string,
     public message?: any,
     public created?: Moment,
-    public employeeIdId?: number
+    public employeeIdId?: number,
+    public userAccountLogin?: string,
+    public userAccountId?: number
   ) {}
 }
